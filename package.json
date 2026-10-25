@@ -1,0 +1,16 @@
+{
+  "name": "smart-blood-bank-management-system",
+  "version": "1.0.0",
+  "description": "Smart Blood Bank Management System (SBBMS) - React + SQL + Node.js REST API",
+  "private": true,
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "dev:backend": "node --watch backend/src/server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": ["blood-bank", "react", "sql", "transfusion", "fefo", "donor-eligibility"],
+  "author": "Smart Blood Bank Team",
+  "license": "ISC"
+}
